@@ -1,5 +1,22 @@
 <?php
 
+/*
+file_put_contents('request.txt', print_r($_REQUEST, true));
+file_put_contents('post.txt', print_r($_POST, true));
+file_put_contents('get.txt', print_r($_GET, true));
+$input = file_get_contents('php://input');
+file_put_contents('input.txt', $input);
+
+
+
+$headers = GetAllHeaders();  
+file_put_contents('headers.txt', print_r($headers, true));
+//foreach($headers as $header=>$value)  
+//echo "$header: $value<br>"; 
+
+//die;
+*/
+
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
